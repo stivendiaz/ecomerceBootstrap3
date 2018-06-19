@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<!-- Navegador -->
+    <!-- Navegador -->
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -36,7 +36,7 @@
             </div>
         </div>
     </nav>
-    
+
     <div class="container-fluid">
 
         <div class="row">
@@ -214,6 +214,97 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Hipster Ultimate</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="alert alert-info ">
+                        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                        <span class="sr-only">Error:</span>
+                        Este producto está agotado.
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-lg-offset-0 col-md-offset-0 col-sm-offset-3 col-xs-offset-3">
+                            <img src="https://s3.amazonaws.com/makeitreal/projects/e-commerce/camiseta-1.jpg" class="img-thumbnail" alt="camisa">
+                        </div>
+                        <br>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div id="precio">
+                                <p>Precio:
+                                    <strong>$200</strong>
+                                </p>
+                            </div>
+                            <div id="calificacion">
+                                <p>Calificacion:
+                                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                                </p>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-warning btn-xs">Hipster</button>
+                                <button type="button" class="btn btn-xs">Deportiva</button>
+                            </div>
+                            <div>
+                                <p> </p>
+                                <a href="#">
+                                    <span class="glyphicon glyphicon glyphicon-heart" aria-hidden="true"></span>
+                                    Agregar a los deseos</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <ul class="nav nav-tabs">
+                            <li>
+                                <a data-toggle="tab" href="#menu1">Descripcion</a>
+                            </li>
+                            <li class="active">
+                                <a data-toggle="tab" href="#menu2">Comentarios</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content">
+                        <div id="menu1" class="tab-pane fade">
+                            <p> </p>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequatUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                ex ea commodo consequat.</p>
+                        </div>
+                        <div id="menu2" class="tab-pane tab-pane fade in active">
+                            <p> </p>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Stiven diaz comento hace 2 dias</div>
+                                <div class="panel-body">Esto es un comentario. </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Comprar</button>
+
+                </div>
+            </div>
+
         </div>
     </div>
 </body>
